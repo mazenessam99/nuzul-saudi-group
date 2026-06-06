@@ -1,6 +1,6 @@
 
 export default function RestaurantDetails() {
     return (
-        <div>RestaurantsDetails</div>
+        <div className="">RestaurantsDetails</div>
     )
 }

@@ -131,6 +131,10 @@
   html[dir="rtl"] h4, html[dir="rtl"] h5, html[dir="rtl"] h6 {
     font-family: "Cairo", sans-serif;
   }
+  input[type="password"]::-ms-reveal,
+  input[type="password"]::-ms-clear {
+    display: none;
+  }
 }
 
 @layer utilities {

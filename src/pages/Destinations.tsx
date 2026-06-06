@@ -1,6 +1,6 @@
 
 export default function Destinations() {
     return (
-        <div>Destinations</div>
+        <div className="">Destinations</div>
     )
 }

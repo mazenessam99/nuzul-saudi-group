@@ -2,6 +2,6 @@
 
 export default function Hotels() {
   return (
-    <div>Hotels</div>
+    <div className="">Hotels</div>
   )
 }

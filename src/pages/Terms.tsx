@@ -1,6 +1,6 @@
 
 export default function Terms() {
     return (
-        <div>Terms</div>
+        <div className="">Terms</div>
     )
 }

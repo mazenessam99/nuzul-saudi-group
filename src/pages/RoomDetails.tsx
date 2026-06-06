@@ -1,6 +1,6 @@
 
 export default function RoomDetails() {
     return (
-        <div>RoomsDetails</div>
+        <div className="">RoomsDetails</div>
     )
 }

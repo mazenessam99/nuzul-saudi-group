@@ -2,6 +2,6 @@
 
 export default function Resorts() {
     return (
-        <div>Resorts</div>
+        <div className="">Resorts</div>
     )
 }

@@ -1,6 +1,6 @@
 
 export default function FAQ() {
     return (
-        <div>FAQ</div>
+        <div className="">FAQ</div>
     )
 }
