@@ -7,7 +7,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 export default function Login() {
     const [show, setShow] = useState(false);
-    const [eye, SetEye] = useState(false);
     return (
         <div className="min-h-[calc(100vh-10rem)] grid lg:grid-cols-2">
             {/*login_image */}
