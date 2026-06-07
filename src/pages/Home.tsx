@@ -1,8 +1,11 @@
+import CTA from "@/components/home/CTA";
+import PartnersSection from "@/components/home/PartnersSection";
 
 export default function Home() {
     return (
-        <div className="">
-            home
-        </div>
+        <main className="">
+            <PartnersSection/>
+            <CTA/>
+        </main>
     )
 }

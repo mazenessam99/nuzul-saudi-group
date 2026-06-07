@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function Login() {
     const [show, setShow] = useState(false);
     return (
-        <div className="min-h-[calc(100vh-10rem)] grid lg:grid-cols-2">
+        <div className="container mx-auto px-4 lg:px-8 min-h-[calc(100vh-10rem)] grid lg:grid-cols-2">
             {/*login_image */}
             <div className="hidden lg:block relative overflow-hidden group">
                 <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-110">
