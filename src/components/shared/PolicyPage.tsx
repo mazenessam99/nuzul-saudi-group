@@ -17,10 +17,9 @@ export default function PolicyPage({title,intro,sections}:Props) {
             <p>{intro}</p>
             {sections.map((section,index)=>(
                 <div key={index} className="space-y-2">
-                    <h2 className="font-bold text-xl text-foreground">الحجوزات</h2>
+                    <h2 className="font-bold text-xl text-foreground">{section.title}</h2>
                     <p>{section.content}</p>
                 </div>
-                
             ))}
             </div>
         </main>
