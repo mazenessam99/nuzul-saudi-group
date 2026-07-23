@@ -33,7 +33,7 @@ function PartnersSection() {
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.4, delay: index * 0.05 }}
+                            transition={{ duration: 0.2, delay: index * 0.05 }}
                             whileHover={{ y: -6 }}
                             className={`relative flex flex-col gap-2 items-center justify-center rounded-2xl p-5 aspect-3/2 bg-linear-to-br ${partner.color} bg-card border hover:border-gold hover:shadow-luxe transition-all overflow-hidden`}
                         >

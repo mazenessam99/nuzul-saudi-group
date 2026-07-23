@@ -1,16 +1,26 @@
 import type { Attraction } from "@/types/attractions";
 
 const attractionPhotos = [
-    "1578895101408-1a36b834405b",
-    "1582719508461-905c673771fd",
-    "1566073771259-6a8506099945",
-    "1551882547-ff40c63fe5fa",
-    "1542314831-068cd1dbfeeb",
-    "1578683010236-d716f9a3f461",
-    "1571896349842-33c89424de2d",
-    "1611892440504-42a792e24d32",
-    "1564501049412-61c2a3083791",
-    "1520250497591-112f2f40a3f4",
+    "https://whatsonsaudiarabia.com/ar/wp-content/uploads/2024/11/httpsrotana.netassetsuploads201709%D8%AC%D8%A8%D9%84-%D8%A7%D9%84%D9%81%D9%8A%D9%84.jpg",
+    "https://tse3.mm.bing.net/th/id/OIP.pUWiZ4e8lLmtmR9aWh7rHgHaEy?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "https://mhtwyat.com/wp-content/uploads/2019/12/%D9%82%D8%B5%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D9%85%D9%83.jpg",
+    "https://white-ar.com/wp-content/uploads/2021/01/%D8%A8%D8%B1%D8%AC-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9-%D8%A8%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg",
+    "https://www.aljawharamag.com/aljawhara/uploads/2025/12/370e1759-1abf-4524-8aff-4cba1b56b1c0-1024x499.jpg",
+    "https://cnn-arabic-images.cnn.io/cloudinary/image/upload/w_1920,c_scale,q_auto/cnnarabic/2020/08/17/images/162716.jpg",
+    "https://static.sayidaty.net/2023-02/221341.jpg",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d3/4e/25/illuminate-the-fountain.jpg?w=400&h=400&s=1&cx=337&cy=320&chk=v1_012cd5d51096d2b363aa",
+    "https://cnn-arabic-images.cnn.io/cloudinary/image/upload/w_898,c_scale,q_auto/cnnarabic/2019/04/11/images/125325.jpg",
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvApurRsnpLr2u7bGyMFI-0g0PpXkpJHSgxqUS7C0co4UxqRmGMOyfFu44UCL7W4AzDCjnkO-i9RezZ88yhsSHkMAwj9MOQKJHlC4Xlh0A79SG7M3Y8tqXtMLOSEQryAeqs7jqL02vJylwEo395zjqoQ8EYntx3tcxvUSAZJM3rhM6i4yQQS78QrPwYjo/w1280-h720-p-k-no-nu/image%20-%202025-10-10T013308.671.webp",
+    "https://haya-online.com/wp-content/uploads/2025/06/672c2e55682e9486621107.jpg",
+    "https://destinationksa.com/wp-content/smush-webp/2025/06/shutterstock_2515403615-scaled.jpg.webp",
+    "https://vid.alarabiya.net/images/2020/12/30/abec322f-ae4e-45c8-b676-c3b80d983d5e/abec322f-ae4e-45c8-b676-c3b80d983d5e_16x9_1200x676.jpg?width=1138",
+    "https://tse3.mm.bing.net/th/id/OIP.T1CRUyEiZZA5bYorZciGQQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "https://www.propertyfinder.sa/blog/wp-content/uploads/2022/04/1626186787065463100.jpeg",
+    "",
+    "",
+    "",
+    "",
+    ""
 ];
 
 const attractionCities = [
@@ -90,7 +100,7 @@ export const attractions: Attraction[] = Array.from({ length: 52 }, (_, i) => ({
     name: `${attractionCats[i % attractionCats.length]} ${attractionCities[i % attractionCities.length]}`,
     city: attractionCities[i % attractionCities.length],
     description: descs[i % descs.length],
-    image: `https://images.unsplash.com/photo-${attractionPhotos[i % 10]}?auto=format&fit=crop&w=1200&q=80&sig=a${i}`,
+    image:attractionPhotos[i%attractionPhotos.length],
     category: attractionCats[i % attractionCats.length]
 
 }));
