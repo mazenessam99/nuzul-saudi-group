@@ -10,10 +10,11 @@ export default function Destinations() {
             <div className="container mx-auto px-4 lg:px-8">
                 <SectionHeader eyebrow="اكتشف المملكة" title="وجهات لا تُنسى" />
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                    {topAttractions.map((attraction, index) => (
+                    {topAttractions.map((attraction) => (
                         <Link
+                            key={attraction.id}
                             to="/destinations"
-                            className="group relative aspect-[3/4] rounded-xl overflow-hidden"
+                            className="group relative aspect-3/4 rounded-xl overflow-hidden"
                         >
                             <img
                                 src={attraction.image}
@@ -22,7 +23,7 @@ export default function Destinations() {
                             />
 
                             {/* overlay */}
-                            <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                            <div className="absolute inset-0 z-10 bg-linear-to-t from-black/80 via-black/30 to-transparent" />
 
                             {/* content */}
                             <div className="absolute bottom-3 inset-x-3 z-20">
