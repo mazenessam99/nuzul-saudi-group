@@ -62,8 +62,8 @@ export default function WhyNuzul() {
                             في نُزُل، نرى أن الإقامة الفاخرة ليست ترفًا عابرًا، بل قصة تُروى بلغة التفاصيل: من عبق القهوة العربية عند الاستقبال، إلى الوسادة المختارة بعناية قبل النوم. نستلهم روحنا من كرم الجزيرة العربية، ونصوغها بمعايير عالمية تليق برؤية 2030.
                         </p>
                         <div className="flex flex-wrap gap-3">
-                            <Link to={'/FAQ'} className="inline-flex items-center gap-2 gradient-gold font-semibold text-charcoal px-6 py-3 rounded-full"> قصتنا<ArrowLeft className="w-4 h-4" /> </Link>
-                            <Link to={'/FAQ'} className="inline-flex items-center gap-2 border border-border font-semibold px-6 py-3 rounded-full hover:border-gold transition"> تحدث مع فريقنا </Link>
+                            <Link to={'/about'} className="inline-flex items-center gap-2 gradient-gold font-semibold text-charcoal px-6 py-3 rounded-full"> قصتنا<ArrowLeft className="w-4 h-4" /> </Link>
+                            <Link to={'/contact'} className="inline-flex items-center gap-2 border border-border font-semibold px-6 py-3 rounded-full hover:border-gold transition"> تحدث مع فريقنا </Link>
                         </div>
                     </div>
                     <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-3">

@@ -1,6 +1,13 @@
+import StorySection from "@/components/about/StorySection";
+import StatsSection from "@/components/about/StatsSection";
+
 
 export default function About() {
     return (
-        <div className="">About</div>
+        <main className="">
+            <StorySection/>
+            <StatsSection/>
+
+        </main>
     )
 }
