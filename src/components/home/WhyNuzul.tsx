@@ -1,6 +1,5 @@
 import { ArrowLeft, Compass, Gem, HeartHandshake, Leaf } from "lucide-react";
 import FeatureCard from "../shared/FeatureCard";
-import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
 
 export default function WhyNuzul() {
