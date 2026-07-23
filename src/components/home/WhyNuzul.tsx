@@ -42,7 +42,7 @@ export default function WhyNuzul() {
                     <div className="lg:col-span-5 w-full">
                         <span className="
                             inline-block
-                            text-xs
+                            text-md
                             tracking-[0.3em]
                             text-gold
                             font-bold
@@ -54,7 +54,7 @@ export default function WhyNuzul() {
                             rounded-full
                             ">لماذا نُزُل
                         </span>
-                        <h2 className="mb-4 text-3xl md:text-5xl font-bold leading-tight">
+                        <h2 className="mb-4 text-3xl md:text-5xl font-bold leading-relaxed">
                             ضيافة تُصنع بعناية <br />
                             <span className="text-gold">وتُقدَّم بشغف</span>
                         </h2>
