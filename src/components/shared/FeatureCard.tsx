@@ -59,10 +59,10 @@ export default function FeatureCard({
                 <div className="w-12 h-12 flex items-center justify-center rounded-xl gradient-gold text-charcoal mb-4 group-hover:scale-110 transition-transform">
                     <Icon className="w-6 h-6"/>
                 </div>
-                <h3 className="font-bold text-lg mb-2">
+                <h3 className={`font-bold text-lg  mb-2`}>
                     {title}
                 </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
+                <p className={`text-muted-foreground text-sm leading-loose`}>
                     {description}
                 </p>
 
