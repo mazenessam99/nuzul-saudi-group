@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import FAQAccordion from "../shared/FAQAccordion";
 
-export const FAQ = () => {
+export const FAQSection = () => {
 
 
     return (

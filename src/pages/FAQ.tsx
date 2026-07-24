@@ -1,8 +1,9 @@
-import HeroSection from "@/components/shared/HeroSection";
+
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 import FAQAccordion from "@/components/shared/FAQAccordion";
 import {  useState } from "react";
+import HeroSection from "@/components/shared/HeroSection";
 
 export default function FAQ() {
     const [cat, setCat] = useState("الكل");

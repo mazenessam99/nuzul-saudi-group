@@ -3,7 +3,7 @@ import SectionHeader from "../shared/SectionHeader";
 import { Link } from "react-router-dom";
 
 
-export default function Destinations() {
+export default function DestinationsSection() {
     const topAttractions = attractions.slice(0, 6)
     return (
         <section className="py-20 bg-muted/40">

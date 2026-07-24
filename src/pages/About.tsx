@@ -3,12 +3,14 @@ import StatsSection from "@/components/about/StatsSection";
 import ValuesSection from "@/components/about/ValuesSection";
 import OurVisionSection from "@/components/about/OurVisionSection";
 import SaudiVision from "@/components/about/SaudiVision";
-
+import InnerHero from "@/components/shared/InnerHero";
+import hero from '../assets/hero-about.jpg'
 
 
 export default function About() {
     return (
         <main className="">
+            <InnerHero image={hero} eyebrow="من نحن" title="ضيافة سعودية بمعايير عالمية" description="نُزُل مجموعة سعودية رائدة في الضيافة الفاخرة، نُلهم ضيوفنا برحلات استثنائية تجمع بين أصالة المملكة وروعة الحداثة."/>
             <StorySection/>
             <StatsSection/>
             <ValuesSection/>

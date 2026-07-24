@@ -2,7 +2,7 @@ import { ArrowLeft, Compass, Gem, HeartHandshake, Leaf } from "lucide-react";
 import FeatureCard from "../shared/FeatureCard";
 import { Link } from "react-router-dom";
 
-export default function WhyNuzul() {
+export default function WhyNuzulSection() {
     const features = [
         {
             icon: Gem,

@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 import { ArrowLeft } from "lucide-react";
 
 
-export default function CTA() {
+export default function CTASection() {
     return (
         <section className="py-20 container mx-auto px-4 lg:px-8">
             <div className="rounded-3xl gradient-hero p-12 md:p-20 text-center text-white relative overflow-hidden ">

@@ -1,17 +1,17 @@
-import CTA from "@/components/home/CTA";
-import Destinations from "@/components/home/Destinations";
-import { FAQ } from "@/components/home/FAQ";
+import CTASection from "@/components/home/CTASection";
+import DestinationsSection from "@/components/home/DestinationsSection";
+import { FAQSection } from "@/components/home/FAQSection";
 import PartnersSection from "@/components/home/PartnersSection";
-import WhyNuzul from "@/components/home/WhyNuzul";
+import WhyNuzulSection from "@/components/home/WhyNuzulSection";
 
 export default function Home() {
     return (
         <main className="">
-            <Destinations/>
-            <WhyNuzul/>
-            <FAQ/>
+            <DestinationsSection/>
+            <WhyNuzulSection/>
+            <FAQSection/>
             <PartnersSection/>
-            <CTA/>
+            <CTASection/>
         </main>
     )
 }
