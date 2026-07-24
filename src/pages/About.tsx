@@ -5,6 +5,7 @@ import OurVisionSection from "@/components/about/OurVisionSection";
 import SaudiVision from "@/components/about/SaudiVision";
 import InnerHero from "@/components/shared/InnerHero";
 import hero from '../assets/hero-about.jpg'
+import CTASection from "@/components/about/CTASection";
 
 
 export default function About() {
@@ -16,6 +17,7 @@ export default function About() {
             <ValuesSection/>
             <SaudiVision/>
             <OurVisionSection/>
+            <CTASection/>
 
         </main>
     )
